@@ -21,3 +21,4 @@ Homestead.json
 
 # Ide specific
 .idea/
+*.iml
