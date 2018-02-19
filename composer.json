@@ -9,10 +9,20 @@
             "email": "princeton.mosha@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "lcobucci/jwt": "^3.2",
+        "illuminate/support": "5.5 - 5.6",
+        "illuminate/auth": "5.5 - 5.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
     "autoload": {
         "psr-4": {
             "OAuth2Middleware\\": "src/"
         }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
     }
 }
